@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <Head>
+        <meta charset="win-1251">
+        <title>Табличка</title>
+        <link rel = "stylesheet" href="table.css">
+    </Head>
+    <body>
+        <div class="header">
+            <nav>
+                <a class = "a_header" href="fr1.html">Основная страничка</a>
+                <a class = "a_header" href="page2.html">Позиционирование элементов</a>
+                <a class = "a_header" href="table.html">Таблица</a>
+            </nav>
+            <p class="p_header">Barbie</p>
+        </div>
+        <table>
+            <caption>Database student</caption>  
+            <tr>
+                <th>id</th>
+                <th> ФИО студента</th>
+                <th> Номер зачётной книжки</th>
+                <th> Номер группы</th>
+                <th> Пол</th>
+                <th> Возраст</th>
+                <th> Форма поступления</th>
+                <th> Название направления</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Волков Н.Е.</td>
+                <td>234</td>
+                <td>6401</td>
+                <td>м</td>
+                <td>21</td>
+                <td>Очная</td>
+                <td>Юриспруденция</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Аксенова В.А.</td>
+                <td>345</td>
+                <td>3115</td>
+                <td>ж</td>
+                <td>17</td>
+                <td>Заочная</td>
+                <td>Физика</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Казаков К.О.</td>
+                <td>218</td>
+                <td>2214</td>
+                <td>м</td>
+                <td>19</td>
+                <td>Очно-заочная</td>
+                <td>Химия</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Ивалиева А.М.</td>
+                <td>891</td>
+                <td>1338</td>
+                <td>ж</td>
+                <td>20</td>
+                <td>Очная</td>
+                <td>Биология</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>Суворов С.Д.</td>
+                <td>001</td>
+                <td>4367</td>
+                <td>м</td>
+                <td>20</td>
+                <td>Заочная</td>
+                <td>Информационная безопасность</td>
+            </tr>
+            <tr>
+                <td>6</td>
+                <td>Васильева М.А.</td>
+                <td>705</td>
+                <td>4116</td>
+                <td>ж</td>
+                <td>18</td>
+                <td>Очно-заочная</td>
+                <td>Наноинженерия</td>
+            </tr>
+        </table>
+        <form>
+            <label for =" id1">id:</label><br>
+            <input type="text" id ="id1" name="id1" required="required"><br>
+            <label for ="FIO">ФИО Студента:</label><br>
+            <input type="text" id ="FIO" name="FIO" required="required"><br>
+            <label for ="number">Номер зачётной книжки:</label><br>
+            <input type="text" id ="number" name="number" required="required"><br>
+            <label for ="group">Номер группы:</label><br>
+            <input type="text" id ="group" name="group" required="required"><br>
+            <label for ="sex">Пол:</label><br>
+            <input type="text" id ="sex" name="sex" required="required"><br>
+            <label for ="age">Возраст:</label><br>
+            <input type="text" id ="age" name="age" required="required"><br>
+            <label for ="name">Название направления:</label><br>
+            <input type="text" id ="name" name="name" required="required"><br>
+            <input type="radio" id ="full_time" name="admission" value="Очная">
+            <label for ="full_time"> Форма поступления: Очная</label><br>
+            <input type="radio" id ="notfull_time" name="admission" value="Очно-заочная">
+            <label for ="notfull_time"> Форма поступления: Очно-заочная</label><br>
+            <input type="radio" id ="extramural" name="admission" value="Заочная">
+            <label for ="extramural"> Форма поступления: Заочная</label><br>
+            <input type="submit" value="Отправить">  
+        </form>
+    </body>
+ </html>

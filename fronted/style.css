@@ -1,0 +1,209 @@
+body
+{
+   background: rgb(255, 0, 183);
+}
+h1
+{
+    color: rgb(236, 236, 241); /* Цвет текста */
+    font-size: 24px;
+
+}
+h2
+{
+    color: rgb(236, 236, 241); /* Цвет текста */
+    font-size: 18px;
+
+}
+p
+{
+    color: rgb(236, 236, 241); /* Цвет текста */
+    font-size: 15px;
+
+}
+ul 
+{
+    color: rgb(236, 236, 241); /* Цвет текста */
+    font-size: 15px;
+
+}
+ol 
+{
+    color: rgb(236, 236, 241); /* Цвет текста */
+    font-size: 15px;
+
+}
+a
+{
+    color: rgb(236, 236, 241); /* Цвет текста */
+    font-size: 18px;
+
+ 
+}
+.content-right
+{
+    order:2;
+    flex-basis: max-width;
+    border-radius: 10px, 10px,10px,10px;
+
+
+}
+.content-left
+{
+    order:1;
+    flex-basis: max-width;
+    flex-basis: max-height;
+    margin-left: 100px;
+    background: rgb(255, 0, 183);
+}
+.content
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgb(255, 131, 220);
+    margin: 20px;
+}
+
+.ya
+{
+    width: 500px;
+    height: 700px;
+    margin-right: 100px;
+    margin: 100px;
+}
+.header
+{
+    background:rgb(255, 245, 245);
+    height: 40px;
+}
+.a_header
+{
+    color: rgb(255,0, 183); /* Цвет текста */
+    float: right;
+    padding: 10px;
+    border-bottom: 2px solid transparent;
+}
+.p_header
+{
+    color: rgb(255,0, 183); /* Цвет текста */
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    font-size: 30px;
+    font-style: italic;
+    padding: 5px;
+}
+.container
+{
+    background: rgb(255, 124, 218);
+}
+.block
+{
+    background: rgb(146, 30, 255);
+    width: 200px;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.frame
+{
+    display: block;
+    width: 200px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+.container_2
+{
+    background: rgb(104, 232, 255);
+    display: flex;
+    align-items: center;   
+}
+.block_2
+{
+    background: rgb(210, 88, 255);
+    width: 200px;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.container_3
+{
+    background: rgb(255, 104, 104);
+    border: 7px solid red;
+}
+.block_3
+{
+    background: rgb(107, 255, 174);
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+    font-size: 40px;
+    color: white;
+    text-align: center;
+    margin: 10px;
+   
+}
+.container_3flex
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.container_4
+{
+    background: rgb(255, 255, 255);
+    position: relative;
+   
+}
+.block_4_1
+{
+    width: 200px;
+    height: 200px;
+    background: rgb(255, 255, 255);
+    border: 7px solid red;
+    position: absolute;
+    left:0px;
+    top: 0px;
+}
+.block_4_2
+{
+    width: 200px;
+    height: 200px;
+    background: rgb(255, 255, 255);
+    border: 7px solid rgb(0, 64, 255);
+    left:100px;
+    top: 100px;
+    position: absolute;
+
+}
+.block_4_3
+{
+    width: 200px;
+    height: 200px;
+    background: rgb(255, 255, 255);
+    border: 7px solid rgb(0, 255, 72);
+    left:200px;
+    top: 200px;
+    position: absolute;
+
+}
+.fixed_element
+{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+.kot
+{
+    display: block;
+    width: 100px;
+    height: 100px;
+}   
+
+    
+
+
+
